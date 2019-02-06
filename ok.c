@@ -19,9 +19,10 @@
 
 int main(int argc, char const *argv[])
 {
-    int fd = 0;
+    char *fname = "./dictionaries/tiny"; 
     char ch[256];
     int offset = 0;
+    int fd = 0;
 
     if (argc < 2)
     {
@@ -29,7 +30,7 @@ int main(int argc, char const *argv[])
         return 1;
     }
 
-    fd = open(argv[1], O_RDWR, 0);
+    fd = open(fname, O_RDWR, 0);
 
     if (fd == 0)
     {
