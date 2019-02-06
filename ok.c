@@ -24,9 +24,9 @@ int main(int argc, char const *argv[])
     int offset = 0;
     int fd = 0;
 
-    if (argc < 2)
+    if (argc > 1)
     {
-        printf("No File provided for reading\n");
+        printf("Too many arguments\n");
         return 1;
     }
 
