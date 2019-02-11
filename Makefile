@@ -14,7 +14,7 @@ EXEC = ok
 OBJS = ok.o
 
 PROJECT_NAME = PROGRAM_5
-FILES = ok.c Makefile
+FILES = ok.c Makefile README.md
 
 default:${EXEC}
 
