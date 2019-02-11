@@ -30,3 +30,13 @@ A program (in C) targeted at the Linux platform which checks whether a specified
 - clean: removes all object and temporary files
 - run: command for running your executable
 
+# Directory 
+```
+.
+├── Makefile
+├── README.md
+├── dictionaries
+│   ├── tiny
+│   └── webster
+└── ok.c
+```
